@@ -75,7 +75,7 @@ function draw() {
   //show text
   textFont("Monospace");
   textSize(20);
-  text(cycles.value() + "x speed", 0,0,100,50);
+  text(cycles.value() + "x speed", 0,0,200,50);
   text("Population: " + population_size, 0,18,200,50);
   text("Generation: " + generation, 0,36,200,50);
   text("Record: " + record, 0,54,200,50);
